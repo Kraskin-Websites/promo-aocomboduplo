@@ -3,8 +3,8 @@
 // ============================================
 
 const HERO_ENTER_CONFIG = [
-  { selector: '.hero-kb-ninja__content', delay: 80 },
-  { selector: '.hero-kb-ninja__media', delay: 220 },
+  { selector: '.hero-kb-ninja__content', delay: -80 },
+  { selector: '.hero-kb-ninja__media', delay: -220 },
 ];
 
 const initHeroAnimations = () => {

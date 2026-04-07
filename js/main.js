@@ -795,7 +795,7 @@ const initKidsMenuCarouselAutoplay = () => {
 
   if (!toggles.length || !slides.length || !viewport) return;
 
-  const AUTOPLAY_INTERVAL = 5000;
+  
   const mobileMediaQuery = window.matchMedia('(max-width: 979px)');
   const reducedMotionMediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 
